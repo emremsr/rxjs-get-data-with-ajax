@@ -1,5 +1,4 @@
 import { Observable, Subscriber } from 'rxjs';
-import { ajax } from 'rxjs/ajax';
 
 const helloButton = document.querySelector('#hello');
 
@@ -14,5 +13,5 @@ HelloClick.subscribe((event) =>
 );
 
 HelloClick.subscribe((event) =>
-  console.log('Sub  :', event.type, event.x, event.y)
+  console.log('Sub 2 :', event.type, event.x, event.y)
 );
